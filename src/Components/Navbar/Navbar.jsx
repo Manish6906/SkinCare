@@ -2,9 +2,6 @@ import  { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { IoSearchOutline } from "react-icons/io5";
 import Subnav from '../SubNavbar/Subnav';
-import Faq from '../Faq/Faq';
-import Blog from '../Blog/Blog';
-import Footer from '../Footer/Footer';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -91,17 +88,7 @@ const Navbar = () => {
       
       </div>
 
-      <div className='relative top-16'>
-      <Faq />
-      </div>
-
-      <div>
-        <Blog />
-      </div>
-
-      <div>
-        <Footer />
-      </div>
+     
 
     </nav>
    </>

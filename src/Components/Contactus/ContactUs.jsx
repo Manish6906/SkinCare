@@ -15,14 +15,14 @@ function Contact() {
   return (
     <>
  
-      <p className="bg-[#F6F6F6] font-bold">
-        <h1 className="ml-10">Contact Us |</h1>
+      <p className="bg-[#F6F6F6] font-bold p-7">
+        <h1 className=" ml-2 md:ml-10 text-lg md:text-4xl">CONTACT US |</h1>
       </p>
       
       <div className="p-2">
       <div className=" p-1 border-3px solid sm:p-4 boredr-3px border-solid border-gray-400 shadow-lg shadow-blue-700 rounded-lg  " >
         {/* main div */}
-        <div className=" sm:bg-red-400sm:rounded-xl md:flex ">
+        <div className=" sm:bg-red-400sm:rounded-xl md:flex md:justify-center p-5">
           <div className=" h-[26rem] text-center border-2 border-solid border-black  text-black rounded-2xl sm:text-start sm:p-10 sm:h-[28rem] lg:h-[30rem]">
             <h1 className="font-bold text-[20px] pt-10">Contact Information</h1>                    
             <p>Say something to start a live chat!</p>
@@ -32,11 +32,11 @@ function Contact() {
               </p>
               <p className="flex  justify-center mt-5 ml-6">
                 <CiMail className="text-[25px] mr-3" />
-                badpewdie@gmail.com
+                glisscosmetics@gmail.com
               </p>
-              <p className="flex  justify-center mt-5">
-                <IoLocationSharp className="text-[25px] mr-9" />
-                Himachal Pradesh
+              <p className="flex  justify-center gap-2 mt-5">
+                <IoLocationSharp className="text-[25px] " />
+                Chandigrah
               </p>
             </div>
             {/* <div className="h-7 w-7 rounded-full bg-[#FFFFFF] relative top-[40px] left-[40px] "></div> */}

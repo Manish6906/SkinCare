@@ -1,5 +1,5 @@
-
-import logo from "./../../assets/Images/logo.avif"
+import Main from './../../assets/About_pic.jpg';
+import { Link } from 'react-router-dom';
 
 
 
@@ -7,7 +7,51 @@ import logo from "./../../assets/Images/logo.avif"
 function About() {
   return (
     <>
-    <div className="p-3">
+     <div><h1 className='text-lg md:text-4xl lg:text-5xl font-bold sm:font-semibold text-center pt-5'>ABOUT US</h1></div>
+
+     <div className='flex flex-col gap-4 lg:flex lg:justify-center lg:flex-row lg:gap-5 p-2 md:p-7 mt-0 md:mt-1 mb-2 md:mb-3'>
+     <div className='w-full md:w-[70% ] lg:w-1/2 flex justify-center items-center'>
+     <div className='p-2 border-gray-400 shadow-2xl shadow-gray-400 border-[1px] rounded-lg'>
+      <img src={Main} alt="main_pic" className='h-[300px] w-[350px] md:h-[400px] md:w-[450px] lg:h-[450px] lg:w-[500px]' />
+     </div>
+     </div>
+
+      <div className='w-full lg:w-1/2 text-center'>
+      <p className='text-center text-2xl pb-2'>Welcome to <i className='text-pink-600 text-3xl font-semibold'>Gliss</i></p>
+      <p>
+      At Gliss, we believe that skincare is more than just a routine—it's a ritual of self-care that enhances both inner
+       confidence and outer beauty. Our mission is to empower you with products that not only nourish your skin but also
+      celebrate your unique beauty.
+      </p>
+      <br />
+      <p>
+      Our Philosophy
+      Gliss is built on the foundation of simplicity and efficacy. We focus on creating high-quality, cruelty-free products
+      that are gentle on your skin and kind to the planet. Each of our formulations is meticulously crafted using natural 
+      ingredients, free from harsh chemicals, and designed to cater to diverse skin types and needs.
+      </p>
+      <br />
+      <p>
+      Why Choose Gliss?
+      We are passionate about transparency and integrity. From sourcing the finest natural ingredients to ensuring sustainable 
+      packaging, every step in our process reflects our commitment to excellence. With Gliss, you can trust that your skincare 
+      routine is in harmony with nature.
+      </p>
+      <br />
+      <p>
+      Our Promise
+      We are dedicated to helping you achieve healthy, radiant skin with products that you can feel good about using every day.
+      Whether you're starting your skincare journey or refining your regimen, Gliss is here to guide and support you with effective,
+      science-backed solutions.
+      </p>
+      <br />
+      <p>
+      <Link to="" className="text-blue-700 underline">Join us</Link> in embracing a new era of skincare—one that prioritizes your well-being and the environment. 
+      With Gliss, glowing skin is just the beginning.
+      </p>
+      </div>
+      </div>
+    {/* <div className="p-3">
 
 
        <div className='h-auto sm:flex  sm:mt-9 shadow-md shadow-blue-500 rounded-xl p-2 bg-[#e0dcdc]'>
@@ -24,7 +68,7 @@ function About() {
 </div>
 </div>
 
-</div>
+</div> */}
     </>
   )
 }

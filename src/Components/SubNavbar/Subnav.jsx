@@ -5,7 +5,7 @@ import { BiSolidOffer } from "react-icons/bi";
 function Subnav() {
   return (
     <div className=''>
-      <nav className="bg-[#242323] text-white h-16 md:h-10 w-full shadow-md flex  flex-col items-center justify-center
+      <nav className="bg-[#1e1e1e] text-white h-16 md:h-10 w-full shadow-md flex  flex-col items-center justify-center
       gap-y-3 gap-x-4 md:flex md:justify-evenly md:items-center flex-wrap "> 
         <Link to="/" className='text-sm  font-medium  hover:underline'>LIPS</Link>
         <Link to="/" className='text-sm  font-medium  hover:underline'>EYES</Link>

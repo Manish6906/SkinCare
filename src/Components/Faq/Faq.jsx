@@ -66,10 +66,10 @@ const Faq = () => {
 
   return (
     <>
-      <div className="bg-gray-100 md:border-gray-100 md:border-[1px] ml-1 mr-1 md:ml-10 md:mr-10 rounded-lg mt-10 md:mt-20
+      <div className="bg-gray-100 md:border-gray-100 md:border-[1px] ml-1 mr-1 md:ml-10 md:mr-10 rounded-lg 
       text-black ">
 
-        <div className="flex justify-center mt-10 ">
+        <div className="flex justify-center ">
           <h1 className="text-xl font-semibold md:text-4xl lg:text-5xl">
             Frequently Asked Question
           </h1>

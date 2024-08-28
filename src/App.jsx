@@ -9,6 +9,8 @@ import About from "./Components/About/About"
 
 
 
+import './App.css'
+
 
 function App() {
  

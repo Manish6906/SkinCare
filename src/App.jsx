@@ -1,6 +1,14 @@
+import Products from "./Components/Products/Products"
+import Navbar from './Components/Navbar/Navbar';
+import Carousel from "./Components/Carousel/Carousel";
+// import Reviews from "./Components/Review/Reviews";
+import Contact from "./Components/Contactus/ContactUs";
 
-import './App.css'
-import Navbar from './Components/Navbar/Navbar'
+import About from "./Components/About/About"
+
+
+
+
 
 function App() {
  
@@ -8,6 +16,13 @@ function App() {
   return (
     <>
     <Navbar />
+    <About />
+    <Products />
+    {/* <Reviews /> */}
+    <Carousel />
+    <Contact />
+   
+    {/* <About /> */}
     </>
   )
 }

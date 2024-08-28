@@ -118,7 +118,40 @@ function Products() {
     <>
    <div>
  
-
+   <div className="flex flex-col sm:flex-row sm:flex-wrap gap-3 p-3 ">
+        {obj.map((value) => (
+          <div key={value.id}>
+            <div className="border-2 border-solid border-black  rounded-lg flex flex-col items-center  text-black" data-aos="fade-in">
+              <div className="h-40 w-full group p-2">
+                <img
+                  src={value.image}
+                  alt={value.name}
+                  className="h-full w-full object-cover  rounded-tl-lg rounded-tr-lg group-hover:hidden"
+                />
+                <img
+                  src={value.hoverImage}
+                  alt={value.name}
+                  className="h-full w-full object-cover rounded-tl-lg rounded-tr-lg hidden group-hover:block"
+                />
+              </div>
+              {/ content div /}
+              <div className="w-full p-1">
+                <h1 className="text-center font-bold">{value.name}</h1>
+                <div className="flex justify-between mt-3">
+                  <p className="text-green-500">{value.newPrice}</p>
+                  <p className="text-gray-500 line-through">{value.oldPrice}</p>
+                </div>
+                <p className="text-red-500 text-right mt-2">{value.Off}</p>
+                <div className="flex justify-center">
+                  <button className="border-2 border-solid p-2 border-black rounded-xl text-white bg-blue-600 mb-2 ">
+                    Buy Now
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
    </div>
     </>
   );

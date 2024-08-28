@@ -17,14 +17,7 @@ function App() {
 
   return (
     <>
-    <Navbar />
-    <About />
-    <Products />
-    {/* <Reviews /> */}
-    <Carousel />
-    <Contact />
    
-    {/* <About /> */}
     </>
   )
 }

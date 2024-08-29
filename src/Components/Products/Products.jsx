@@ -6,7 +6,9 @@ import { CiHeart } from "react-icons/ci";
 import FaceWash from './../../assets/back.jpg';
 import hover1 from './../../assets/Front.jpg';
 
-
+import Aos from "aos";
+import "aos/dist/aos.css"
+import { useEffect } from "react";
 
 function Products() {
   const obj = [
@@ -143,10 +145,14 @@ function Products() {
       hoverImage: hover1,
      },
   ];
+  useEffect(()=>
+  {
+    Aos.init({duration: 1000})
+  })
 
   return (
     <>
-   <div id="product">
+   <div id="product" >
 
     {/* ------------ */}
       <div><h1 className='text-lg md:text-4xl lg:text-5xl font-bold sm:font-semibold text-center p-3 '>OUR PRODUCTS</h1></div>
@@ -178,12 +184,12 @@ function Products() {
                   <p><b>{value.newPrice}</b> <del><i className="text-sm"> {value.oldPrice}</i></del></p>
                   <p>{value.Off}</p>
                   <div className="flex items-center gap-2">
-                  <p className="text-yellow-500"><IoStarSharp /></p>
+                  <p className="text-yellow-500 "><IoStarSharp /></p>
                   <p>{value.rating}</p>
                   </div>
 
                   <div className="flex items-center gap-2 pt-2 md:pt-3">
-                    <p className="text-3xl p-1 rounded-lg border-black border-[1px] hover:bg-red-600 hover:text-white"><CiHeart /></p>
+                    <p className="text-3xl p-1 rounded-lg border-black border-[1px] hover:bg-red-600 hover:text-white "><CiHeart /></p>
                     <button className="h-10 w-36 border-black border-[1px] rounded-lg bg-black text-white font-bold">SELECT SHADE</button>
                   </div>
                 </div>

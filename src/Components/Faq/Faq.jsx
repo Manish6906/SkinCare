@@ -103,14 +103,14 @@ const Faq = () => {
         </div>
 
         <div className="flex flex-col-reverse lg:flex-row justify-between mt-5 lg:mt-20">
-          <div className="faq-image mt-6 lg:mt-5 lg:ml-5">
+          <div className="faq-image mt-6 lg:mt-5 lg:ml-5 lg:w-[50%]">
             <img
               src={Yimg}
               alt="Payment"
               className="h-[293px] lg:h-[293px] w-full lg:w-[581px] rounded-xl px-1 md:px-2 lg:px-0"
             />
           </div>
-          <div className="faq-content md:ml-6 mt-8 leading-10 lg:mr-32">
+          <div className="faq-content md:ml-6 mt-8 leading-10 lg:mr-32 lg:w-[50%]">
             {renderAccordion({ key: 'payment', title: 'Payment', color: 'green-600' }, faqData.payment)}
           </div>
         </div>

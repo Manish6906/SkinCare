@@ -1,6 +1,5 @@
 import Products from "./Components/Products/Products";
 import Navbar from "./Components/Navbar/Navbar";
-import Carousel from "./Components/Carousel/Carousel";  
 import Contact from "./Components/Contactus/ContactUs";
 
 import About from "./Components/About/About";
@@ -14,11 +13,11 @@ import Reviews from "./Components/Review/Reviews";
 function App() {
   return (
     <>
-      <Navbar />
+      <Navbar /> 
       <About />
       <Products />
       <Blog />
-      <Faq />
+      <Faq /> 
       <Reviews />
       <Contact />
       <div className="mt-5 md:mt-10"><Footer /></div>

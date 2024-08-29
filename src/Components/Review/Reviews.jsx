@@ -12,22 +12,22 @@ function Reviews() {
     },[])
     const review =[
         {
-            name :"Manish",
+            name :"Jessica M.",
             review : "3 review",
             month : " 2 Month",
-            para : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+            para : "I've tried countless serums, but nothing beats Gliss's Glow Up Serum. After just a week, my skin feels smoother and has a noticeable glow."
         },
         {
-name :"Manish",
+            name :"Emily R.",
             review : "3 review",
             month : " 2 Month",
-            para : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+            para : "This toner is a game-changer! It’s so refreshing , perfect for my morning routine. My skin feels revitalized, and the subtle floral scent is so soothing."
         },
         {
-name :"Manish",
+            name :"Megan S.",
             review : "3 review",
             month : " 2 Month",
-            para : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+            para : "I can't believe the difference this night cream has made. My skin feels firmer and more supple every morning. I love that it's packed with natural ingredients."
         },
         
     ]

@@ -48,7 +48,7 @@ function Reviews() {
                         <h6>{content.review}</h6>
                         <div className="flex  items-center  text-yellow-400 ">
                         <IoStarSharp /><IoStarSharp /><IoStarSharp /><IoStarSharp /><RiStarHalfFill /> 
-                        <p className="text-gray-600 text-[13px] ml-2">{content.month}</p>
+                        <p className="text-gray-600 text-[13px] ml-1">{content.month}</p>
                         </div>
                         <p className="text-sm md:text-[16px] leading-[22px]"> {content.para}</p>
                     </div>

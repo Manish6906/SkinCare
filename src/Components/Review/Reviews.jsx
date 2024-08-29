@@ -37,18 +37,20 @@ name :"Manish",
     { review.map(( content)=>(
 
 
-    <div key={content} className="p-2"  data-aos="fade-up">
-        <div className="flex gap-5 shadow-lg shadow-blue-600 p-4 rounded-lg ">
-                    <div className="text-5xl">
+    <div key={content} className="p-3"  data-aos="fade-up">
+        <div className="flex  gap-5 shadow-lg shadow-blue-600 p-2 rounded-md ">
+                    <div className=" text-3xl md:text-5xl">
                     <FaRegUserCircle />
                     </div>      
 
                     <div>
-                        <h1 className="text-3xl font-medium">{content.name}</h1>
+                        <h1 className=" text-base md:text-2xl font-medium">{content.name}</h1>
                         <h6>{content.review}</h6>
-                        <div className="flex  items-center  text-yellow-400 text-[218x]">
-                        <IoStarSharp /><IoStarSharp /><IoStarSharp /><IoStarSharp /><RiStarHalfFill /> <p className="text-gray-600 text-[13px] ml-2">{content.month}</p></div>
-                        <p> {content.para}</p>
+                        <div className="flex  items-center  text-yellow-400 ">
+                        <IoStarSharp /><IoStarSharp /><IoStarSharp /><IoStarSharp /><RiStarHalfFill /> 
+                        <p className="text-gray-600 text-[13px] ml-2">{content.month}</p>
+                        </div>
+                        <p className="text-sm md:text-[16px] leading-[22px]"> {content.para}</p>
                     </div>
         </div>
     </div>

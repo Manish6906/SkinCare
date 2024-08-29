@@ -8,7 +8,7 @@ function Reviews() {
 
     useEffect(()=>
     {
-        Aos.init({duration: 2000})
+        Aos.init({duration: 1000})
     },[])
     const review =[
         {
@@ -33,7 +33,7 @@ function Reviews() {
     ]
   return (
     <>
-    <div className="md:flex mt-5 ">
+    <div className="md:flex mt-5 -z-0 ">
     { review.map(( content)=>(
 
 

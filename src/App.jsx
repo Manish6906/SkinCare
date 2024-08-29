@@ -22,8 +22,9 @@ function App() {
       <Blog />
       <Faq /> 
 
-      <Reviews />
+    
       <Contact />
+      <Reviews />
       <Footer />
 </BrowserRouter>
     </>

@@ -1,4 +1,4 @@
-import React from 'react'
+
 import Main from './../../assets/Blog_image/sssss.jpg';
 
 function Blog() {

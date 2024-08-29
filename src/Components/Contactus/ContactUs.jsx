@@ -23,12 +23,12 @@ function Contact() {
       <div className=" p-1 border-3px solid sm:p-4 boredr-3px border-solid border-gray-400 shadow-lg shadow-blue-700 rounded-lg  " >
         {/* main div */}
         <div className=" sm:bg-red-400sm:rounded-xl md:flex md:justify-center p-5">
-          <div className=" h-[26rem] text-center border-2 border-solid border-black  text-black rounded-2xl sm:text-start sm:p-10 sm:h-[28rem] lg:h-[30rem]">
+          <div className=" h-[26rem] text-center border-[1px] border-solid border-white shadow-lg shadow-black text-black rounded-2xl sm:text-start sm:p-10 sm:h-[28rem] lg:h-[30rem]">
             <h1 className="font-bold text-[20px] pt-10">Contact Information</h1>                    
             <p>Say something to start a live chat!</p>
             <div>
               <p className="flex  justify-center mt-5">
-                <LuPhoneCall className="text-[23px] mr-7 " />+91- <p className="underline"> 9465342092</p>
+                <LuPhoneCall className="text-[23px] mr-7 " /> <p className="underline"> 1800-208-0001</p>
               </p>
               <p className="flex  justify-center mt-5 ml-6">
                 <CiMail className="text-[25px] mr-3" />
@@ -36,7 +36,7 @@ function Contact() {
               </p>
               <p className="flex  justify-center gap-2 mt-5">
                 <IoLocationSharp className="text-[25px] " />
-                Chandigrah
+                Chandigarh 
               </p>
             </div>
             {/* <div className="h-7 w-7 rounded-full bg-[#FFFFFF] relative top-[40px] left-[40px] "></div> */}
